@@ -14,4 +14,4 @@ __Find a service:__ ``sc.exe queryex SERVICE_NAME``
 
 __Kill a service:__ ``taskkill /PID SERVICE_PID /F``
 
-_Note: if the start type can also be auto._
+_Note: the start type can also be auto._
