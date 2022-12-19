@@ -19,7 +19,7 @@ int _tmain (int argc, TCHAR *argv[])
 
     SERVICE_TABLE_ENTRY ServiceTable[] = 
     {
-        {SERVICE_NAME, (LPSERVICE_MAIN_FUNCTION) ServiceMain},
+        {(LPWSTR)SERVICE_NAME, (LPSERVICE_MAIN_FUNCTION) ServiceMain},
         {NULL, NULL}
     };
 
